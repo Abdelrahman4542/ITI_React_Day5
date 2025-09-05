@@ -1,0 +1,38 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 50px;
+  background-color: teal;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0 2rem;           
+  background: #212121;      
+  border-radius: 8px;        
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12); 
+}
+
+.list li {
+  margin: 0 1rem;            
+  font-size: 1.1rem;         
+  font-weight: 500;          
+}
+
+.list a {
+  color: #fff;              
+  text-decoration: none;     
+  transition: color 0.2s;    
+  padding: 0.5rem 1rem;      
+  border-radius: 4px;        
+  display: inline-block;
+}
+
+.list a:hover,
+.list a:focus {
+  background: #3f51b5;       
+  color: #fff;               
+}
